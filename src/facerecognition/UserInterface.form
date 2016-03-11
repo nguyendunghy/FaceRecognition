@@ -180,14 +180,14 @@
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="F:\IT\0-CAC MON HOC\0-KI DANG HOC\Do An Tot Nghiep\Code\face_recognition\bg.jpg"/>
+              <Image iconType="2" name="C:\Users\NguyenVanDung\Documents\GitHub\FaceRecognition\resource\bg.jpg"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="F:\IT\0-CAC MON HOC\0-KI DANG HOC\Do An Tot Nghiep\Code\face_recognition\bg.jpg"/>
+              <Image iconType="2" name="C:\Users\NguyenVanDung\Documents\GitHub\FaceRecognition\resource\bg.jpg"/>
             </Property>
           </Properties>
         </Component>

@@ -23,7 +23,10 @@ public class UserInterface extends javax.swing.JFrame {
 
     String url1 = ""; //duong link cua tap anh hoc
     String url2 = ""; //duong link cua anh can nhan dien
-    String bg = "F:\\IT\\0-CAC MON HOC\\0-KI DANG HOC\\Do An Tot Nghiep\\Code\\face_recognition\\bg.jpg"; //Anh nen
+    String bg = "C:\\Users\\NguyenVanDung\\Documents\\GitHub\\FaceRecognition\\resource\\bg.jpg"; //Anh nen
+    String def = "C:\\Users\\NguyenVanDung\\Documents\\GitHub\\FaceRecognition\\resource";
+//    String bg = "";
+//    String def = "";
     public static float precision = 0;
     public static float[] precisionValue = {(float) 500, (float) 1000, (float) 1500, (float) 2000, (float) 2500, (float) 3000, (float) 3500, (float) 4000};
 
@@ -111,9 +114,9 @@ public class UserInterface extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("F:\\IT\\0-CAC MON HOC\\0-KI DANG HOC\\Do An Tot Nghiep\\Code\\face_recognition\\bg.jpg")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\NguyenVanDung\\Documents\\GitHub\\FaceRecognition\\resource\\bg.jpg")); // NOI18N
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("F:\\IT\\0-CAC MON HOC\\0-KI DANG HOC\\Do An Tot Nghiep\\Code\\face_recognition\\bg.jpg")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\NguyenVanDung\\Documents\\GitHub\\FaceRecognition\\resource\\bg.jpg")); // NOI18N
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jLabel3.setText("Thông tin ảnh");
@@ -345,7 +348,6 @@ public class UserInterface extends javax.swing.JFrame {
     private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
 
         JFileChooser choose = new JFileChooser();
-        String def = "F:\\IT\\0-CAC MON HOC\\0-KI DANG HOC\\Do An Tot Nghiep\\Code\\face_recognition";
         choose.setCurrentDirectory(new File(def));
         int option = choose.showSaveDialog(this);
         if (option == JFileChooser.APPROVE_OPTION) {
@@ -363,7 +365,6 @@ public class UserInterface extends javax.swing.JFrame {
 
     private void jButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseClicked
         JFileChooser choose = new JFileChooser();
-        String def = "F:\\IT\\0-CAC MON HOC\\0-KI DANG HOC\\Do An Tot Nghiep\\Code\\face_recognition";
         choose.setCurrentDirectory(new File(def));
         int option = choose.showSaveDialog(this);
         if (option == JFileChooser.APPROVE_OPTION) {
